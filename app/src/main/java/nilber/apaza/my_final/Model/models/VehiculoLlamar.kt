@@ -1,0 +1,31 @@
+package nilber.apaza.my_final.Model.models
+
+data class VehiculoLlamar(
+    val altura: Double,
+    val ancho: Double,
+    val anio: String,
+    val capacidad_carga: Int,
+    val cilindrada: Double,
+    val color: String,
+    val combustible: String,
+    val created_at: String,
+    val descripcion: String,
+    val foto: Any,
+    val id: Int,
+    val kilometraje: Int,
+    val largo: Double,
+    val marca: String,
+    val modelo: String,
+    val motor: String,
+    val numero_motor: String,
+    val numero_placa: String,
+    val numero_telefono: String,
+    val peso: Double,
+    val potencia: Int,
+    val precio: Int,
+    val terminos_condiciones: Int,
+    val traccion: String,
+    val transmision: String,
+    val updated_at: String,
+    val valvulas: Int
+)
